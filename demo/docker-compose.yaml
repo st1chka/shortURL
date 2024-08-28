@@ -19,7 +19,5 @@ services:
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123
-    volumes:
-      - ./dump-postgres-202408272335.sql:/docker-entrypoint-initdb.d/dump-postgres-202408272335.sql
     ports:
       - "5432:5432"
